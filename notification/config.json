@@ -1,9 +1,9 @@
 {
   "base": {
-    "project": "some project",
-    "environment": "some env",
-    "comment": "some comment",
-    "reportLink": "https://jenkins.autotests.cloud/job/JenkisProperty/25/",
+    "project": "lesson 14",
+    "environment": "quaguru",
+    "comment": "@AndrewDragoonov",
+    "reportLink": "https://jenkins.autotests.cloud/job/14.1/8/",
     "language": "en",
     "messenger": "telegram",
     "allureFolder": "allure-report",

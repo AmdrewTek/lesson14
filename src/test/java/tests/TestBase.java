@@ -1,7 +1,6 @@
 package tests;
 
 import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import helpers.Attach;
@@ -12,8 +11,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.Map;
 
-import static com.codeborne.selenide.Selenide.closeWebDriver;
-
 public class TestBase {
 
   @BeforeAll
@@ -23,7 +20,7 @@ public class TestBase {
     Configuration.browserVersion = System.getProperty("browserVersion", "latest");
     Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
     Configuration.baseUrl = "https://www.performance-lab.ru/";
-    Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
+    //Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
     Configuration.remote = System.getProperty("remoteUrl");
     Configuration.timeout = 10000;
 
