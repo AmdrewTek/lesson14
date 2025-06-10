@@ -39,6 +39,10 @@ tasks.withType(Test) {
     systemProperty "file.encoding", "utf-8"
     useJUnitPlatform()
 
+    tasks.withType(JavaCompile) {
+        options.encoding = 'UTF-8'
+    }
+
     testLogging {
         lifecycle {
             events "started", "skipped", "failed", "standard_error", "standard_out"
