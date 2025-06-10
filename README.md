@@ -22,6 +22,7 @@
 `gradle clean PerformanceLabTests`  
 Команда для запуска теста с параметрами:  
 `gradle clean PerformanceLabTests -Dbrowser=chrome -Dversion=100 -Dsize=1920x1080`
+
 ---
 
 ### Jenkins
@@ -29,7 +30,8 @@
 Запустить [тест](https://jenkins.autotests.cloud/job/14.1/) можно в Jenkins.
 Для этого необходимо кликнуть по кнопке **Build with Parameters**, после чего
 выбрать параметры и нажать кнопку **Build**
-<img src="media/report_media/jenkins_build.png" alt="Jenkins" width="834"/>
+<img src="media/report_media/jenkins_build.png"/>
+
 ---
 
 ## Allure отчет
@@ -42,6 +44,7 @@
 копия странички  
 Пример
 видео <img src="media/report_media/video_report.gif"/>
+
 ---
 
 ## Уведомления в Telegram с помощью бота
