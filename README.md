@@ -30,7 +30,7 @@
 Запустить [тест](https://jenkins.autotests.cloud/job/14.1/) можно в Jenkins.
 Для этого необходимо кликнуть по кнопке **Build with Parameters**, после чего
 выбрать параметры и нажать кнопку **Build**
-<img src="media/report_media/jenkins_build.png"/>
+<img src="media/report_media/jenkins_build.png" />
 
 ---
 
@@ -39,11 +39,11 @@
 После прохождения
 теста [отчёт](https://jenkins.autotests.cloud/job/14.1/10/allure/) выгружается в
 **build/allure-results**
-<img src="media/report_media/allure_report.png"/>
+<img src="media/report_media/allure_report.png" />
 К каждому отчёту о тестировании автоматически создаются скриншоты, видео, логи и
 копия странички  
 Пример
-видео <img src="media/report_media/video_report.gif"/>
+видео <img src="media/report_media/video_report.gif" />
 
 ---
 
