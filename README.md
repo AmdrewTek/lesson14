@@ -37,14 +37,15 @@
 После прохождения
 теста [отчёт](https://jenkins.autotests.cloud/job/14.1/10/allure/) выгружается в
 **build/allure-results**
-<img src="media/report_media/allure_report.png" alt="Успешный тест" width="834"/>
+<img src="media/report_media/allure_report.png"/>
 К каждому отчёту о тестировании автоматически создаются скриншоты, видео, логи и
 копия странички  
-Пример видео <img src="media/report_media/video_report.gif" alt="Allure отчет" width="834"/>
+Пример
+видео <img src="media/report_media/video_report.gif"/>
 ---
 
 ## Уведомления в Telegram с помощью бота
 
 После завершения сборки телеграм бот уведомляет о результатах прохождения теста.
 Бот может тегать нужных участников чата
-<img src="media/report_media/tg_report.png" alt="Telegram" width="834"/>
+<img src="media/report_media/tg_report.png"/>
