@@ -16,14 +16,16 @@ public class PerformanceLabTests extends TestBase {
   @Test
   @DisplayName("Проверка работы главной страницы")
   void openMainPageAndCheckLogoTest() {
-    mainPage.openPage();
-    mainPage.mainPageCheckHeader();
+    mainPage.openPage()
+        .closeBanner()
+      .mainPageCheckHeader();
   }
 
   @Test
   @DisplayName("Проверка работы страницы автоматизации тестирования")
   void openAvtomatizacijaPage() {
     mainPage.openPage()
+      .closeBanner()
       .clickAvtomatizacijaButton();
     avtomatizacijaPage.checkAvtomatizacijaPageTitle();
   }
@@ -31,6 +33,7 @@ public class PerformanceLabTests extends TestBase {
   @DisplayName("Проверка работы страницы функционального тестирования")
   void openFunkcionalnoePage() {
     mainPage.openPage()
+      .closeBanner()
       .clickFunkcionalnoeButton();
     funkcionalnoePage.checkFunkcionalnoePageTitle();
   }
@@ -38,6 +41,7 @@ public class PerformanceLabTests extends TestBase {
   @DisplayName("Проверка работы страницы нагрузочного тестирования")
   void openNagruzochnoePage() {
     mainPage.openPage()
+      .closeBanner()
       .clickNagruzochnoeButton();
     nagruzochnoePage.checkNagruzochnoePageTitle();
   }
@@ -45,6 +49,7 @@ public class PerformanceLabTests extends TestBase {
   @DisplayName("Проверка работы страницы разработки ПО")
   void openRazrabotkaPage() {
     mainPage.openPage()
+      .closeBanner()
       .clickRazrabotkaButton();
     razrabotkaPage.checkRazrabotkaPageTitle();
   }

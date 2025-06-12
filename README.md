@@ -1,16 +1,17 @@
+# ![Logo](media/icon/perfomans-Lab-logotip.svg)
 # Проект по автоматизации тестовых сценариев для сайта компании [Перфоманс Лаб](https://www.performance-lab.ru/)
 ---
 
 ## Технологии и инструменты
 
-- Java
-- Selenide
-- Selenoid
-- JUnit 5
-- Gradle
-- Jenkins
-- Allure Report
-- Telegram Bot
+- [Java](https://www.java.com/ru/)
+- [Selenide](https://ru.selenide.org/)
+- [Selenoid](https://github.com/aerokube/selenoid)
+- [JUnit 5](https://junit.org/junit5/)
+- [Gradle](https://gradle.org/)
+- [Jenkins](https://www.jenkins.io/)
+- [Allure Report](https://allurereport.org/)
+- [Telegram Bot](https://core.telegram.org/bots/api)
 
 ---
 
